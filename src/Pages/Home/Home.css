@@ -1,0 +1,32 @@
+.leftSide {
+    width: 330px;
+    background: #d4d4d4;
+    height: 100vh;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .3s;
+}
+.middleSide {
+    background: #e2e2e2;
+    text-align: left;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+.rightSide {
+    width: 330px;
+    background: #919191;
+    height: 100vh;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.toggleLeftSide{
+    left: -330px;
+}
+.toggMiddleSide{
+    margin-left: 0px;
+    margin-right: 0px;
+}
